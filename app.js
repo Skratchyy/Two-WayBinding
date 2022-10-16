@@ -7,9 +7,6 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        showInput(event) {
-            this.inputMessage = event.target.value;
-        },
         showMessage() {
             alert(this.message);
         },
